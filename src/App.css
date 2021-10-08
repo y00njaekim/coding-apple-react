@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  margin-top: 5%;
+  justify-content: center;
+}
+.col-md-4 {
+  width: 50%;
+}
+
+.col-md-4 > img {
+  width: 100%;
+}
+
+.my-background {
+  position: relative;
+  display: block;
+  height: 40%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  /* border: 3px solid tomato; */
+}
+.my-background .title {
+  font-size: 9rem;
+}
+.my-background > p {
+  font-size: 1.2rem;
+}
