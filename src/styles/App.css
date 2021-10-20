@@ -55,7 +55,7 @@
   height: 40%;
   width: 100%;
   background-position: 50% 50%;
-  background-image: url('./background.jpg');
+  background-image: url('../background.jpg');
   background-size: cover;
   overflow: hidden;
   color: white;
