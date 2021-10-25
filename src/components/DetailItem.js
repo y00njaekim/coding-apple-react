@@ -1,8 +1,6 @@
 import React from 'react';
-import {useParams} from 'react-router-dom';
 
-const DetailItem = ({shoes}) => {
-  const {id} = useParams();
+const DetailItem = ({shoes, id}) => {
   const imgIndex = shoes[id].id + 1;
   return (
     <div className="container">

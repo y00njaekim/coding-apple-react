@@ -1,3 +1,12 @@
+.alert {
+  background-color: rgb(255, 238, 161);
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
 .App {
   text-align: center;
 }
@@ -37,18 +46,42 @@
   }
 }
 
+.btn {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
 .row {
   margin-top: 5%;
   justify-content: center;
 }
 .col-md-4 {
-  width: 50%;
+  width: 100%;
+}
+
+.col-md-4 > h4,
+.col-md-4 > p {
+  text-align: center;
 }
 
 .col-md-4 > img {
   width: 100%;
 }
 
+.detail {
+  text-align: center;
+}
+.detail-title {
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.detail-input {
+  margin: auto;
+}
 .my-background {
   position: relative;
   display: block;
@@ -66,4 +99,24 @@
 }
 .my-background > p {
   font-size: 1.2rem;
+  text-align: justify;
+}
+
+.shoe-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.shoe-item {
+  display: inline-block;
+  width: 35%;
+}
+
+.shoe-list {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }

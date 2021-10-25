@@ -5,7 +5,7 @@ import AppRouter from './Router';
 
 function App() {
   const [shoes, setShoes] = useState(data);
-  return <AppRouter shoes={shoes}></AppRouter>;
+  return <AppRouter shoes={shoes} setShoes={setShoes}></AppRouter>;
 }
 
 export default App;
